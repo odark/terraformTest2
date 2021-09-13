@@ -1,3 +1,4 @@
-output "test" {
-    value = "${data.terraform_remote_state.test_instance.ec2_name}"
+output "test1" {
+    value = "${data.terraform_remote_state.test_instance.outputs.ec2_name}"
+
 }

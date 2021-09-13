@@ -4,9 +4,9 @@ provider "aws" {
 
 data "terraform_remote_state" "test_instance" {
     backend = "remote"
-    config {
+    config = {
         organization = "odarkTeraTest"
-        workspaces {
+        workspaces = {
             name = "terraformTest"
         }
     }
