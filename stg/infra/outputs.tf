@@ -1,3 +1,3 @@
 output "result" {
-    value="stg-infgra_0124"
+    value="stg-infgra_0124_onmore"
 }
